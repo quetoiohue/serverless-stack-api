@@ -1,0 +1,11 @@
+{
+    "body": "{\"content\":\"I like you... We can hang out later, Is that oke? \",\"attachment\":\"new.jpg\"}",
+    "pathParameters": {
+      "id": "578eb840-f70f-11e6-9d1a-1359b3b22943"
+    },
+    "requestContext": {
+      "identity": {
+        "cognitoIdentityId": "USER-SUB-1234"
+      }
+    }
+  }
