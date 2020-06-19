@@ -1,6 +1,10 @@
 import handler from "./libs/handler-lib";
 import dynamoDb from "./libs/dynamodb-lib";
 
+import { log } from "../libs/debug-lib";
+
+log('This stores the message and prints to CloudWatch if Lambda function later throws an exception');
+
 export const main = handler(async (event, context) => {
   const params = {
     TableName: process.env.tableName,
